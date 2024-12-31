@@ -3,8 +3,10 @@ const noun = ["Book", "Bicycle", "Lamp", "Teddy Bear", "Backpack", "Soccer Ball"
 const color = ["Red", "Blue", "Green", "Yellow", "Orange", "Purple", "Pink", "Black", "White", "Gray"];
 
 function generateRandomItem() {
-    const randomIndex = Math.floor(Math.random() * 10);
-    return `You have created a... \n${adjective[randomIndex]} ${color[randomIndex]} ${noun[randomIndex]}!`
+    const randomIndex1 = Math.floor(Math.random() * 10);
+    const randomIndex2 = Math.floor(Math.random() * 10);
+    const randomIndex3 = Math.floor(Math.random() * 10);
+    return `You have created a... \n${adjective[randomIndex1]} ${color[randomIndex2]} ${noun[randomIndex3]}!`
 }
 
 document.getElementById("generateButton").addEventListener("click", function() {

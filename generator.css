@@ -1,7 +1,14 @@
-button {
-    color: green;
-}
 div {
     font-weight: bold;
     font-size: 40pt;
+}
+html{
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button {
+    font-size: 15pt;
 }
